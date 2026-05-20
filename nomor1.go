@@ -43,10 +43,12 @@ func cariKecocokan(n int, data []string) string {
 func main() {
 	contoh1 := []string{"abcd", "acbd", "aaab", "acbd"}
 	fmt.Println("Contoh input 1:")
+	fmt.Println(contoh1)
 	fmt.Println("Output:", cariKecocokan(4, contoh1))
 
 	contoh2 := []string{"pisang", "goreng", "enak", "sekali", "rasanya"}
 	fmt.Println("Contoh input 2:")
+	fmt.Println(contoh2)
 	fmt.Println("Output:", cariKecocokan(5, contoh2))
 
 	contoh3 := []string{
@@ -54,5 +56,6 @@ func main() {
 		"Bonus", "Tiga", "Puluh", "Tujuh", "Tusuk",
 	}
 	fmt.Println("Contoh input 3:")
+	fmt.Println(contoh3)
 	fmt.Println("Output:", cariKecocokan(11, contoh3))
 }
